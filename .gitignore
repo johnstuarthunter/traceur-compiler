@@ -4,8 +4,6 @@
 *.swp
 .DS_Store
 .svn
-bin/traceur-runtime.js
-bin/traceur.js
 build/compiled-by-previous-traceur.js
 build/currentSemVer.mk
 build/local.mk
@@ -13,11 +11,6 @@ build/node
 build/previous-commit-traceur.js
 node_modules
 out
-src/codegeneration/ParseTreeTransformer.js
-src/outputgeneration/SourceMapIntegration.js
-src/syntax/ParseTreeVisitor.js
-src/syntax/trees/ParseTreeType.js
-src/syntax/trees/ParseTrees.js
 test/unit/codegeneration/PlaceholderParser.generated.js
 test/unit/semantics/FreeVariableChecker.generated.js
 test/unit/tools/SourceMapMapping.generated.js
